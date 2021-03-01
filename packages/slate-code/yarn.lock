@@ -9,14 +9,14 @@
     slate-hyperscript "^0.11.25"
 
 "@convertkit/slate-keymap@file:../slate-keymap":
-  version "0.1.7"
+  version "0.1.9"
   dependencies:
     is-hotkey "^0.1.4"
 
 "@convertkit/slate-testing-library@file:../slate-testing-library":
-  version "0.0.8"
+  version "0.0.9"
   dependencies:
-    "@convertkit/slate-htm" "file:../../../../Library/Caches/Yarn/v4/npm-@convertkit-slate-testing-library-0.0.8-76b0d180-3ac6-450b-b3c7-1be331c94f5f-1553091758011/node_modules/@convertkit/slate-htm"
+    "@convertkit/slate-htm" "file:../slate-htm"
     htm "^2.0.0"
     jest-diff "^24.0.0"
     slate-hyperprint "^2.3.0"
@@ -383,9 +383,9 @@ pretty-format@^24.0.0:
     ansi-styles "^3.2.0"
 
 prismjs@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.15.0.tgz#8801d332e472091ba8def94976c8877ad60398d9"
-  integrity sha512-Lf2JrFYx8FanHrjoV5oL8YHCclLQgbJcVZR+gikGGMqz6ub5QVWDTM6YIwm3BuPxM/LOV+rKns3LssXNLIf+DA==
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.23.0.tgz#d3b3967f7d72440690497652a9d40ff046067f33"
+  integrity sha512-c29LVsqOaLbBHuIbsTxaKENh1N2EQBOHaWv7gkHN4dgRbxSREqDnDbtFJYdpPauS4YCplMSNCABQ6Eeor69bAA==
   optionalDependencies:
     clipboard "^2.0.0"
 
